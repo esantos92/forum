@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seu signo</title>
+</head>
+<body>
+  <header>
+    <h1 class="title">
+      Seu signo
+    </h1>
+  </header>
+
+  <main>
+    <form action="./index.php" method="post" id="form_birthday">
+      <h3 class="form_header">
+        Informe sua data de nascimento
+      </h3>
+
+      <div class="form_body">
+        <input type="date" name="birthday" id="birthday">
+        <input type="submit" value="Enviar">
+      </div>
+    </form>
+  </main>
+</body>
+
+<script type="text/javascript">
+  let birthday = document.getElement("#form_birthday");
+
+  birthday.addEventListener("submit", (e) => {
+    e.currentTarget.submit();
+  });
+</script>
+
+<style>
+  body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    color: darkslategray;
+  }
+
+  .form_body{
+    margin-top: 10px;
+  }
+</style>
+</html>
