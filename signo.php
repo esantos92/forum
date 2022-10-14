@@ -12,7 +12,7 @@
   <section class="container">
   	<?php
       $xml = simplexml_load_file('index.xml');
-      $birthday = strtotime($_POST['birthday']);
+      $birthday = strtotime($_GET['birthday']);
   		foreach($xml->signo as $gap):
         list($diaInicio, $mesInicio) = explode("/", $gap->dataInicio);
         list($diaFinal, $mesFinal) = explode("/", $gap->dataFim);
