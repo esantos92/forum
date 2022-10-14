@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Seu signo fácil - Resposta</title>
+	<title>Seu signo - Resposta</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<header class="bg-white">
+<header>
   <h1>Seu signo</h1>
 </header>
   <section class="container">
@@ -28,4 +28,14 @@
   	?>
   </section>
 </body>
+
+<style>
+  body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    color: darkslategray;
+  }
+</style>
 </html>
