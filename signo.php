@@ -11,7 +11,7 @@
 </header>
   <section class="container">
   	<?php
-      $xml = simplexml_load_file('index.xml');
+      $xml = simplexml_load_file('signos.xml');
       $birthday = strtotime($_GET['birthday']);
   		foreach($xml->signo as $gap):
         list($diaInicio, $mesInicio) = explode("/", $gap->dataInicio);
