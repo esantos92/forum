@@ -16,6 +16,9 @@ $ git clone https://github.com/esantos92/forum.git
 $ docker-compose up
 ```
 
-O form pode ser acessado via navegado através da url: localhost:8080
+O form pode ser acessado via navegador através da url: localhost:8080
 
 ## Prints do Form
+![image](https://user-images.githubusercontent.com/77086466/195959154-5dd63fab-d64a-486a-a189-472b70a7b177.png)
+
+![image](https://user-images.githubusercontent.com/77086466/195959252-d443f222-481a-4397-b429-8b97d86284ab.png)
